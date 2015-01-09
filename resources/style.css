@@ -454,6 +454,12 @@ header .welcome-banner h1 .name {
 #contacts .contacts li a.skype:hover {
   background: #00a0d7;
 }
+#contacts .contacts li a.twitter {
+  background: #5EA9DD;
+}
+#contacts .contacts li a.twitter:hover {
+  background: #4a95c9;
+}
 #contacts .contacts li a i {
   font-size: 100px;
   line-height: 200px;
