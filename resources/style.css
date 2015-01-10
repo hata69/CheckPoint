@@ -90,7 +90,7 @@ h2:after {
   left: 50%;
   bottom: 0;
   margin-left: -44px;
-  background: #14a58c;
+  background: #414141;
 }
 h3 {
   font: 700 24px/24px 'Titillium Web', sans-serif;
@@ -174,12 +174,12 @@ header .welcome-banner h1 .name {
   background: #643a79;
 }
 #about {
-  background: #17c2a4;
+  background: #FFFFFF;
   padding: 50px 0;
 }
 #about h2,
 #about .under-header {
-  color: white;
+  color: #414141;
 }
 #about .about-item {
   text-align: center;
@@ -201,7 +201,7 @@ header .welcome-banner h1 .name {
 }
 #about .about-item h3,
 #about .about-item p {
-  color: #FFF;
+  color: #414141;
 }
 #about .info-banner {
   margin-top: 30px;
@@ -221,7 +221,7 @@ header .welcome-banner h1 .name {
   font-weight: 700;
 }
 #learning {
-  background: #E1FCF5;
+  background: #17C2A4;
   padding: 50px 0;
 }
 #learning h2:after {
@@ -230,7 +230,7 @@ header .welcome-banner h1 .name {
 #learning h2,
 #learning .under-header,
 #learning p {
-  color: #4E7F74;
+  color: #FFFFFF;
 }
 #learning .learning_item {
   margin: 50px 0 0 0;
