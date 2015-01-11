@@ -191,13 +191,13 @@ header .welcome-banner h1 .name {
   font-size: 80px;
 }
 #about .about-item i.fa-users {
-  color: #4fffd5;
+  color: #D23A45;
 }
 #about .about-item i.fa-rocket {
-  color: #9dffb2;
+  color: #00A10E;
 }
 #about .about-item i.fa-code {
-  color: #ffdd99;
+  color: #5A0007;
 }
 #about .about-item h3,
 #about .about-item p {
@@ -245,16 +245,16 @@ header .welcome-banner h1 .name {
   color: #3ab99a;
 }
 #learning .learning_items-wrapper .row .col-sm-3:nth-child(1) .learning_item i {
-  color: #2B9BCC;
+  color: #FFFE95;
 }
 #learning .learning_items-wrapper .row .col-sm-3:nth-child(2) .learning_item i {
-  color: #FF9A8F;
+  color: #98FF95;
 }
 #learning .learning_items-wrapper .row .col-sm-3:nth-child(3) .learning_item i {
-  color: #6D8B99;
+  color: #F9F9F9;
 }
 #learning .learning_items-wrapper .row .col-sm-3:nth-child(4) .learning_item i {
-  color: #CC2B44;
+  color: #CCD4FF;
 }
 #team {
   background: #e7f1f8;
@@ -346,7 +346,7 @@ header .welcome-banner h1 .name {
   background: #dde7ee;
 }
 #partners {
-  background: #ffdd99;
+  background: #FFFE90;
   padding: 50px 0;
 }
 #partners h2,
