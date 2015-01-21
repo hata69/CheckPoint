@@ -392,6 +392,15 @@
           <span class="cooperation-status">hosting</span>
         </div>
       </div>
+      <div class="col-sm-3">
+        <div class="partners-item">
+          <div>
+            <img src="resources/JellyFishIT-partner.png">
+          </div>
+          <h3><a href>JellyFishIT</a></h3>
+          <span class="cooperation-status">information</span>
+        </div>
+      </div>
       
       
     </div>
@@ -611,9 +620,9 @@
     function initialize() {
       var myLatlng = new google.maps.LatLng(50.43,30.5500000);
       var kpi = new google.maps.LatLng(50.448283, 30.455964);
-      var ciklum = new google.maps.LatLng(50.422833, 30.505211);
+      var levi9 = new google.maps.LatLng(50.3955059, 30.4789647);
       var mapOptions = {
-        zoom: 13,
+        zoom: 11,
         center: myLatlng,
         scrollwheel: false
       };
@@ -626,7 +635,7 @@
       });
 
       var kpiInfo = new google.maps.InfoWindow({
-        content: 'Киевский Национальный Политехнический Институт, остановка Метро "КПИ"',
+        content: 'Kiev Polytechnic Institute',
         maxWidth: 300
       });
 
@@ -635,19 +644,19 @@
       });
 
 
-      var ciklumMarker = new google.maps.Marker({
-        position: ciklum,
+      var levi9Marker = new google.maps.Marker({
+        position: levi9,
         map: map,
-        title: 'Ciklum'
+        title: 'Levi9'
       });
 
-      var ciklumInfo = new google.maps.InfoWindow({
-        content: 'Адрес: вулиця Миколи Амосова, 12, Київ, місто Київ, 03038',
+      var levi9Info = new google.maps.InfoWindow({
+        content: 'Okhtyrskyi Lane, 7',
         maxWidth: 300
       });
 
       google.maps.event.addListener(ciklumMarker, 'click', function() {
-        ciklumInfo.open(map,ciklumMarker);
+        ciklumInfo.open(map,levi9Marker);
       });
     }
 
