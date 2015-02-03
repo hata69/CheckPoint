@@ -86,6 +86,8 @@ angular.module('App', []).controller('RegistrationCtrl', ['$scope', 'Registratio
                 'Faculty of Applied Mathematics - FPM',
                 'Physics and Mathematics Faculty - FMF',
                 'Chemistry and Technology Faculty - HTF',
+                'Institute for applied system analysis - IASA',
+                'Institute of Telecommunication Systems - ITS',
                 'Other'
             ];
         },
@@ -105,4 +107,3 @@ angular.module('App', []).controller('RegistrationCtrl', ['$scope', 'Registratio
         }
     };
 }]);
-
